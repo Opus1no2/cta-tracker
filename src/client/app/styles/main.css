@@ -1,0 +1,60 @@
+body {
+  background-image: url('../images/white_wall_hash.png');
+}
+.jumbotron {
+  background-image: url('../images/1.png');
+  padding-top: 158px;
+  padding-bottom: 30px;
+  color: white;
+  box-shadow: 0 5px 10px #ccc;
+}
+
+.trains, .buses {
+  text-align:center;
+  font-size: 12em;
+  color: #95acb2;
+}
+
+a {
+  color: #95acb2;
+}
+
+a:hover {
+  color: #95acb2;
+  text-decoration: none;
+}
+
+.trains h1, .buses h1 {
+  font-size: 63px;
+}
+
+.fa {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+
+.partition {
+  position: absolute;
+  left: 50%;
+  top: 350px;
+  bottom: 1%;
+  border-left: 1px solid #ccc;
+  box-shadow: 0px 4px 4px #ccc;
+  opacity: .4;
+}
+
+@media (max-width: 992px) {
+  .partition {
+    display:none;
+  }
+}
+
+@media (max-width: 768px) {
+  .trains, .buses {
+    font-size: 10em;
+  }
+
+  .trains h1, .buses h1 {
+    font-size: 36px;
+  }
+}
